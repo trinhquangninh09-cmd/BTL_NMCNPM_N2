@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <AssemblyName>TourManager</AssemblyName>
+    <RootNamespace>TourManager.GUI</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <ProjectReference Include="..\TourManager.DTO\TourManager.DTO.csproj" />
+    <ProjectReference Include="..\TourManager.DAL\TourManager.DAL.csproj" />
+    <ProjectReference Include="..\TourManager.BLL\TourManager.BLL.csproj" />
+  </ItemGroup>
+</Project>

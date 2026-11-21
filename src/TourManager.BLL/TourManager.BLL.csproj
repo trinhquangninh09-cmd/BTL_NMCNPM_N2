@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <RootNamespace>TourManager.BLL</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TourManager.DTO\TourManager.DTO.csproj" />
+    <ProjectReference Include="..\TourManager.DAL\TourManager.DAL.csproj" />
+  </ItemGroup>
+</Project>
